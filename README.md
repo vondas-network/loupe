@@ -1,7 +1,10 @@
 # loupe
+
 One tool for Smart Contract extraction 
 
-
+<h3 align="center">
+  <img height="255" width="253" src="https://github.com/vondas-network/loupe/blob/main/img/loupe.png?raw=true"/>
+</h3>
 
 # What does it do?
 *loupe* excels at one thing, Smart Contract extraction. It can extract master Solidity files which contain multiple contracts in one file as well as Solidity files that are aggregated into a nested JSON file. The type of Solidity file returned by *loupe* is blockchain dependent. 
