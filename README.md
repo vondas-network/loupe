@@ -2,11 +2,14 @@
 One tool for Smart Contract extraction 
 
 
+
 # What does it do?
 *loupe* excels at one thing, Smart Contract extraction. It can extract master Solidity files which contain multiple contracts in one file as well as Solidity files that are aggregated into a nested JSON file. The type of Solidity file returned by *loupe* is blockchain dependent. 
 
+
 ## Ethereum/Binance
 On Ethereum/Binance, we found most Smart Contracts are either an individual Smart contract with multiple functions or a Smart Contract that containes multiple Solidity files.
+
 
 ## Avalanche
 On Avalanche, we found most responses to be JSON files containing multiple Solidity files nested within an object.
@@ -92,6 +95,13 @@ var chainKey = {
 ## npm
 ```
 npm i @vondas/loupe
+```
+
+## Source
+```
+git clone [this repository]
+cd [repository]
+npm i
 ```
 
 # Usage
